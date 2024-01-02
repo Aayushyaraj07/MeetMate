@@ -1,0 +1,58 @@
+myenv
+node_modules
+
+# Byte-compiled / optimized Python files
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+.env
+
+
+# Virtual environment
+venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+
+# Log files
+*.log
+
+# Temporary files
+*.bak
+*.swp
+*~
+
+# Secret key
+secret_key.txt
+
+# Configuration files
+*.ini
+*.conf
+*.cfg
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Thumbnails
+._*
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Compiled Python bytecode
+_pycache_/
+
+# Ignore the migration files in each app's "migrations" directory
+*/migrations/.py
+*/migrations/.pyc
+_pycache_/
